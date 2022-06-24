@@ -1,0 +1,124 @@
+.add__posts,.show__posts{
+    width: 85%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-inline: auto;
+    padding: 10px;
+}
+
+.add__posts .inputs__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    column-gap: 20px;
+}
+.add__posts .input__wrapper{
+    width: 100%;
+}
+.add__posts label{
+    padding-inline-end: 10px;
+    cursor: pointer;
+}
+.add__posts input{
+    width: 100%;
+    padding-inline-start: 5px;
+    padding-block: 5px;
+}
+.submit__buttonWrapper{
+    margin-top: 15px;
+    display: grid;
+    place-items: center;
+}
+.submit__buttonWrapper button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    outline: 1px solid blue;
+}
+.submit__buttonWrapper button:hover{
+    background-color: blue;    
+    color: white; 
+}
+.show__posts{
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
+.post__infoWrapper{
+    width: 100%;
+}
+.post__info{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto 1fr auto auto;
+}
+.post__info p{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.post__info button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.post__info button:first-of-type{
+    margin-inline-end: 10px;
+    color: orange;
+    outline: 1px solid orange;
+}
+.post__info button:first-of-type:hover{
+    background-color: orange;    
+    color: white; 
+}
+.post__info button:last-of-type{
+    color: red;
+    outline: 1px solid red;
+}
+.post__info button:last-of-type:hover{
+    background-color: red;
+    color: white; 
+}
+.post__update{
+    width: 100%;
+    margin-block: 10px;
+}
+.post__update form{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 20px;
+    width: 100%;
+    align-items: end;
+}
+.post__update .inputs__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.post__update label{
+    padding-inline-end: 10px;
+}
+.post__update input{
+    padding-inline-start: 5px;
+    padding-block: 5px;
+    width: 100%;
+}
+.update__buttonWrapper button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    color: green;
+    outline: 1px solid green;
+}
+.update__buttonWrapper button:hover{
+    background-color: green;    
+    color: white; 
+}
+
